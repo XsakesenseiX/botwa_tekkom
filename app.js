@@ -142,7 +142,7 @@ async function triggerHumanHandover(userId, originalMessage, context = "Customer
     usersInHumanSession.add(userId);
     userState.delete(userId); 
 
-    await originalMessage.reply(`Baik, mohon tunggu sebentar. Kami akan segera menghubungkan Anda dengan ${context}. Jam layanan: 08:00 - 20:00 WIB (Senin-Jumat).`);
+    await originalMessage.reply(`Baik, mohon tunggu sebentar. Kami akan segera menghubungkan Anda dengan ${context}. Jam layanan: 08:00 - 16:00 WIB (Senin-Jumat).`);
 
     if (AGENT_WHATSAPP_ID && AGENT_WHATSAPP_ID !== 'YOUR_AGENT_WHATSAPP_ID@c.us') {
         const userPhoneNumberForAgent = getPhoneNumber(userId);
