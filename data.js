@@ -14,8 +14,7 @@ const mahasiswaMenu = "Berikut layanan untuk Mahasiswa Program Studi Teknik Komp
     "3. Jadwal Kuliah\n" +
     "4. Info Tugas Akhir (Skripsi)\n" +
     "5. Hubungi Pengelola Program Studi\n\n" +
-    "0. Kembali ke pilihan peran (Menu Utama)\n" +
-    "00. Kembali ke pilihan peran (Menu Utama)";
+    "0. Kembali ke pilihan peran (Menu Utama)";
 
 // Level 3: Ask for NPM or Name (for Dosen Wali lookup)
 const askForNpmOrName = "Silakan masukkan Nomor Pokok Mahasiswa (NPM) atau Nama Lengkap Mahasiswa untuk mencari Dosen Wali:\n(Contoh NPM: 21.83.0588 atau Contoh Nama: Budi Santoso)\n\n0. Kembali ke menu sebelumnya\n00. Kembali ke pilihan peran (Menu Utama)";
@@ -69,7 +68,7 @@ const infoJadwalKuliah = "Untuk melihat jadwal kuliah lengkap, kunjungi:\nhttps:
 const infoTugasAkhirSkripsi = "Info Tugas Akhir (Skripsi) bisa dicek di sini: https://daak.amikom.ac.id/page/pengajuan-judul-taskripsi";
 
 // --- DOSEN SECTION ---
-const dosenMenu = "Berikut layanan untuk Dosen Program Studi Teknik Komputer:\n1. Revisi Nilai Mahasiswa\n2. Pengajuan Surat Tugas dan Pengajuan SPD\n3. Form Konfirmasi Tugas Luar Kampus\n4. Berbicara dengan Admin Prodi\n\n0. Kembali ke pilihan peran (Menu Utama)\n00. Kembali ke pilihan peran (Menu Utama)";
+const dosenMenu = "Berikut layanan untuk Dosen Program Studi Teknik Komputer:\n1. Revisi Nilai Mahasiswa\n2. Pengajuan Surat Tugas dan Pengajuan SPD\n3. Form Konfirmasi Tugas Luar Kampus\n4. Berbicara dengan Admin Prodi\n\n0. Kembali ke pilihan peran (Menu Utama);
 const revisiNilaiInfoDosen = "Revisi Nilai Mahasiswa: https://bit.ly/approval-kaprodi-tekkom\n" +
 "• Form ini digunakan untuk merubah nilai mahasiswa pasca crosscheck diluar jadwal yang telah ditentukan DAAK.\n" +
 "• Hanya dosen yang diperbolehkan mengisi form ini.\n" +
@@ -83,7 +82,7 @@ const formKonfirmasiTugasLuarInfo = "Upload bukti SPD: https://bit.ly/form-uploa
 "• Pastikan login menggunakan email Amikom.";
 
 // --- CALON MAHASISWA / ORANG TUA WALI SECTION ---
-const calonMahasiswaMenu = "Berikut layanan yang dapat Anda akses:\n1. Informasi Layanan Prodi Teknik Komputer (umum)\n2. Profil Prodi Teknik Komputer\n3. Informasi PMB (Penerimaan Mahasiswa Baru)\n\n0. Kembali ke pilihan peran (Menu Utama)\n00. Kembali ke pilihan peran (Menu Utama)";
+const calonMahasiswaMenu = "Berikut layanan yang dapat Anda akses:\n1. Informasi Layanan Prodi Teknik Komputer (umum)\n2. Profil Prodi Teknik Komputer\n3. Informasi PMB (Penerimaan Mahasiswa Baru)\n\n0. Kembali ke pilihan peran (Menu Utama);
 
 // "Dosen Wali (Informasi Umum)" is now "Cari Dosen Wali Mahasiswa"
 const infoLayananProdiUmumSubMenu = "Berikut layanan yang dapat Anda akses di Informasi Umum Program Studi Teknik Komputer:\n1. Cari Dosen Wali Mahasiswa\n2. Berbicara langsung dengan Admin Prodi\n\n0. Kembali ke menu Calon Mahasiswa/Wali\n00. Kembali ke pilihan peran (Menu Utama)";
